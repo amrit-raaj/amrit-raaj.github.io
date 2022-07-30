@@ -61,17 +61,20 @@ input[type="text"]{
     font-size: 17px;
 }
 input[type="text"]:focus{
-    background-color: #ffffff;
-    border: 2px solid orange;
+    background-color: rgb(223, 238, 194);;
+    border: 2px solid ;
     border-radius: 10px;
     outline: none;
+}
+input[type="text"]:hover{
+    background-color: rgb(223, 238, 194);
 }
 .btn{
     width: 150px;
     margin-left: 38.5%;
     margin-top: 40px;
     border: 1px solid #3498db;
-    border-radius: 50px;
+    border-radius: 0px;
     background: none;
     color: #3498db;
     padding: 14px 16px;
@@ -83,8 +86,8 @@ input[type="text"]:focus{
 }
 .btn:hover{
     color: white;
-    background-color: red;
-    border-radius: 50px 50px 50px 50px;
+    background-color: #3498db;;
+    border-radius: 15px 15px 15px 15px;
     box-shadow: #1073d0;
     text-shadow: #bababa;
 }
